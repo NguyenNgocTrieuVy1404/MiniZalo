@@ -1,0 +1,102 @@
+/* Toàn bộ giao diện */
+.root {
+    -fx-background-color: #E0F7FA; /* Nền sáng cho toàn bộ ứng dụng */
+    -fx-padding: 20px; /* Khoảng cách bên trong toàn bộ ứng dụng */
+    -fx-font-family: "Arial", sans-serif; /* Chọn font chữ dễ đọc */
+}
+
+/* Khung nổi cho AnchorPane */
+#anchor {
+    -fx-background-color: #f0f9f9; /* Nền xanh nhạt dịu mắt */
+    -fx-border-color: #00897B; /* Màu viền xanh ngọc */
+    -fx-border-width: 3px; /* Độ dày viền */
+    -fx-border-radius: 0px; /* Không bo góc cho viền */
+    -fx-padding: 20px; /* Khoảng cách giữa viền và nội dung bên trong */
+    
+    /* Hiệu ứng bóng mờ nhẹ */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.1), 12, 0.2, 4, 4);
+}
+
+/* Label Styling */
+.label {
+    -fx-text-fill: #333333; /* Màu chữ xám đậm cho label */
+    -fx-font-size: 16px; /* Kích thước chữ cho label */
+    -fx-font-weight: normal; /* Chữ thường cho label */
+}
+
+/* Label Tiêu Đề Đăng Ký */
+.labelWithShadow {
+    -fx-text-fill: #ff0000; /* Màu chữ đỏ */
+    -fx-font-size: 30px; /* Kích thước chữ lớn hơn */
+    -fx-font-weight: bold; /* Chữ đậm */
+    -fx-font-family: "Arial", sans-serif; /* Font chữ dễ đọc */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.4), 5, 0.7, 3, 3); /* Bóng mờ lớn hơn */
+    -fx-padding: 10px 0; /* Khoảng cách xung quanh chữ */
+}
+
+/* Định nghĩa màu riêng cho nút Back */
+#btnBack {
+    -fx-background-color: #3498db; /* Màu nền xanh lam */
+    -fx-text-fill: white; /* Màu chữ trắng */
+    -fx-font-weight: bold; /* Chữ đậm */
+    -fx-background-radius: 10; /* Bo tròn các góc nút */
+    -fx-border-color: #2980b9; /* Màu viền đậm hơn */
+    -fx-border-radius: 10; /* Bo tròn các góc viền */
+    -fx-padding: 5 10; /* Khoảng cách giữa chữ và viền */
+}
+
+/* Styling cho TextField */
+.input-field {
+    -fx-background-color: #ffffff; /* Nền trắng */
+    -fx-border-color: #b0c4de; /* Viền xanh nhạt */
+    -fx-border-width: 2px; /* Độ dày viền */
+    -fx-border-radius: 5px; /* Bo góc cho TextField */
+    -fx-padding: 8px 12px; /* Khoảng cách bên trong */
+    -fx-font-size: 14px; /* Kích thước chữ trong TextField */
+}
+
+/* Viền đổi màu khi TextField được chọn (focused) */
+.input-field:focused {
+    -fx-border-color: #42A5F5; /* Viền xanh dương khi được chọn */
+    -fx-border-width: 2px; /* Độ dày viền khi được chọn */
+    -fx-effect: dropshadow(three-pass-box, rgba(66, 165, 245, 0.4), 8, 0.2, 0, 2); /* Hiệu ứng bóng khi chọn */
+}
+
+/* Styling cho PasswordField */
+.password-field {
+    -fx-background-color: #ffffff; /* Nền trắng */
+    -fx-border-color: #b0c4de; /* Viền xanh nhạt */
+    -fx-border-width: 2px; /* Độ dày viền */
+    -fx-border-radius: 5px; /* Bo góc cho PasswordField */
+    -fx-padding: 8px 12px; /* Khoảng cách bên trong */
+    -fx-font-size: 14px; /* Kích thước chữ */
+}
+
+/* Viền khi PasswordField được chọn (focused) */
+.password-field:focused {
+    -fx-border-color: #42A5F5; /* Viền xanh khi được chọn */
+    -fx-border-width: 2px; /* Độ dày viền khi chọn */
+    -fx-effect: dropshadow(three-pass-box, rgba(66, 165, 245, 0.4), 8, 0.2, 0, 2); /* Hiệu ứng bóng khi chọn */
+}
+
+/* Nút Button */
+.button {
+    -fx-background-color: #ff5722; /* Nền cam sáng */
+    -fx-text-fill: #ffffff; /* Màu chữ trắng */
+    -fx-font-size: 14px; /* Kích thước chữ */
+    -fx-font-weight: bold; /* Chữ đậm */
+    -fx-padding: 10px 15px; /* Khoảng cách bên trong */
+    -fx-background-radius: 5px; /* Bo góc cho nút */
+    -fx-border-radius: 5px; /* Bo góc cho viền nút */
+}
+
+/* Hiệu ứng hover cho Button */
+.button:hover {
+    -fx-background-color: #e64a19; /* Màu cam đậm hơn khi hover */
+    -fx-cursor: hand; /* Thay đổi con trỏ khi hover vào button */
+}
+
+/* Viền cho Button khi nhấn */
+.button:pressed {
+    -fx-background-color: #d84315; /* Màu cam sậm hơn khi nhấn */
+}

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="341.0" prefWidth="557.0" stylesheets="@login.css" xmlns="http://javafx.com/javafx/21" xmlns:fx="http://javafx.com/fxml/1" fx:controller="client.LoginController">
+   <children>
+      <Label layoutX="204.0" layoutY="38.0" styleClass="labelWithShadow" text="Đăng nhập" textAlignment="CENTER" textFill="#db1212">
+	<font>
+		<Font size="25.0" />
+	</font>
+</Label>
+
+      <TextField fx:id="usernameField" layoutX="197.0" layoutY="92.0" />
+      <Label layoutX="120.0" layoutY="101.0" text="Tài Khoản:" textFill="#141313">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <Label layoutX="121.0" layoutY="151.0" text="Mật Khẩu:">
+         <font>
+            <Font size="14.0" />
+         </font></Label>
+      <PasswordField fx:id="passwordField" layoutX="196.0" layoutY="142.0" />
+      
+      <Button fx:id="loginButton" layoutX="223.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleLogin" text="Login" />
+		<Button fx:id="registerButton" layoutX="223.0" layoutY="253.0" mnemonicParsing="false" onAction="#switchToRegister" text="Đăng Ký" />
+      
+   </children>
+</AnchorPane>

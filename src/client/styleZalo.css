@@ -1,0 +1,92 @@
+.root {
+    -fx-background-color: #f9f9f9;
+    -fx-border-color: #dcdcdc;
+    -fx-border-width: 2px;
+    -fx-border-radius: 10px;
+    -fx-background-radius: 10px;
+    -fx-padding: 15px;
+}
+
+#anchorZalo {
+    -fx-border-color: #ADD8E6; /* Màu xanh dương nhạt (Light Blue) */
+    -fx-border-width: 4px; /* Độ dày viền */
+    -fx-border-radius: 0px; /* Bo góc viền */
+}
+
+#titleZalo {
+    -fx-background-color: transparent; 
+    -fx-text-fill: #A0D3E8; /* Màu xanh nhẹ hơn */
+    -fx-font-size: 36px; 
+    -fx-font-weight: bold; 
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.5), 5, 0, 3, 3);
+    -fx-padding: 10; 
+    -fx-border-color: #B0E0E6; /* Màu viền xanh nhẹ hơn (Powder Blue) */
+    -fx-border-width: 2; 
+    -fx-border-radius: 5; 
+}
+
+
+.label {
+    -fx-text-fill: #1e90ff;
+    -fx-font-size: 16px;
+    -fx-font-weight: bold;
+}
+
+.text-area {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b0c4de;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.combo-box {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b0c4de;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.text-field {
+    -fx-background-color: #ffffff;
+    -fx-border-color: #b0c4de;
+    -fx-border-width: 1px;
+    -fx-padding: 10px;
+    -fx-font-size: 14px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.button {
+    -fx-background-color: #0078d7;
+    -fx-text-fill: #ffffff;
+    -fx-font-size: 14px;
+    -fx-font-weight: bold;
+    -fx-padding: 10px 15px;
+    -fx-background-radius: 5px;
+    -fx-border-radius: 5px;
+}
+
+.button:hover {
+    -fx-background-color: #005a9e;
+}
+
+.tab-pane {
+    -fx-tab-min-width: 100px;
+    -fx-tab-max-width: 200px;
+}
+
+.tab {
+    -fx-background-color: #e0e0e0;
+    -fx-border-radius: 5px 5px 0 0;
+}
+
+.tab:selected {
+    -fx-background-color: #ffffff;
+    -fx-border-radius: 5px 5px 0 0;
+}

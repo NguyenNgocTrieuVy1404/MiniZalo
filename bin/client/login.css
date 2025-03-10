@@ -1,0 +1,77 @@
+/* File: login.css */
+
+/* Style for the AnchorPane background */
+AnchorPane {
+    -fx-background-color: #E0F7FA; /* Màu nền nhạt cho giao diện */
+    -fx-padding: 20px;
+    -fx-border-color: #00796B; /* Màu viền */
+    -fx-border-width: 4px; /* Độ dày viền */
+}
+
+.labelWithShadow {
+    -fx-text-fill: #333333; /* Màu chữ chính */
+    -fx-font-size: 25px;    /* Kích thước chữ */
+    -fx-font-weight: bold;  /* Độ đậm chữ */
+    -fx-effect: dropshadow(gaussian, rgba(0, 0, 0, 0.75), 4, 0, 2, 2);
+}
+
+/* Style for the TextField (username) */
+#usernameField {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #009688;
+    -fx-border-radius: 10; /* Bo tròn góc */
+    -fx-background-radius: 10; /* Bo tròn nền */
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333; /* Màu chữ xám đậm */
+    -fx-pref-height: 35px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0.2, 0, 1); /* Hiệu ứng bóng */
+}
+
+/* Style for the PasswordField */
+#passwordField {
+    -fx-background-color: #FFFFFF;
+    -fx-border-color: #009688;
+    -fx-border-radius: 10;
+    -fx-background-radius: 10;
+    -fx-padding: 8;
+    -fx-font-size: 14px;
+    -fx-text-fill: #333333;
+    -fx-pref-height: 35px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.1), 5, 0.2, 0, 1);
+}
+
+/* Style for the Login button */
+#loginButton {
+    -fx-background-color: #4CAF50; /* Màu xanh lá cho nút đăng nhập */
+    -fx-text-fill: #FFFFFF; /* Màu chữ trắng */
+    -fx-font-size: 14px;
+    -fx-background-radius: 15;
+    -fx-pref-width: 90px;
+    -fx-pref-height: 35px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 5, 0.2, 0, 2);
+}
+
+#registerButton {
+    -fx-background-color: #2196F3; /* Màu xanh dương cho nút đăng ký */
+    -fx-text-fill: #FFFFFF; /* Màu chữ trắng */
+    -fx-font-size: 14px;
+    -fx-background-radius: 15;
+    -fx-pref-width: 90px;
+    -fx-pref-height: 35px;
+    -fx-effect: dropshadow(three-pass-box, rgba(0,0,0,0.15), 5, 0.2, 0, 2);
+}
+
+/* Hover effects for buttons */
+Button:hover {
+    -fx-opacity: 0.9; /* Tăng độ sáng khi di chuột */
+    -fx-scale-x: 1.05; /* Phóng to nhẹ khi di chuột */
+    -fx-scale-y: 1.05;
+}
+
+/* Optional: Style for focused input fields */
+TextField:focused, PasswordField:focused {
+    -fx-border-color: #42A5F5; /* Màu viền khi chọn vào */
+    -fx-border-width: 2;
+    -fx-effect: dropshadow(three-pass-box, rgba(66, 165, 245, 0.4), 8, 0.2, 0, 2);
+}
